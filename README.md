@@ -77,7 +77,7 @@ jobs:
     steps:
 
       - name: Checkout source code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Connect to Azure
         uses: AzActions/AzConnect@v1
